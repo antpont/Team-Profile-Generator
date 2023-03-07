@@ -1,0 +1,28 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "A web page generator that will pull up team members basic info such as their GitHub or emails.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antpont/Team-Profile-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antpont/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/antpont/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.4",
+    "jest": "^29.5.0"
+  }
+}
